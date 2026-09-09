@@ -4,11 +4,16 @@
 
 ## 現在開始
 
-1. 將 `templates/profile.md` 複製至 `private/profile.md`，填入背景與連結。`private/` 內檔案不進 Git。
-2. 把 `prompts/export-background.md` 貼到最了解你的 ChatGPT 對話，將回覆存成 `private/background-export.md`。自行核對事實後，再整合至 profile。
-3. 將自傳、履歷、成績單、獎狀等放進 `private/evidence/`，按照 `templates/evidence.md` 建立 `private/evidence-index.md`。
-4. 上傳郵件提到的玉山 PDF 原檔，放到 `applications/2026-esun/private/source/`。目前只有郵件文字及官網資訊，附件尚未收到。
-5. 將 `prompts/apply.md` 的案件名稱改成 `2026-esun` 並貼給 agent；未填完的資料可以先留空，agent 會整理缺口。
+你的背景以兩個網站為主，每次產生申請文件都重新讀取：
+
+- 個人網站：https://me.jjmowlab.com
+- GitHub：https://github.com/egger-meow
+
+你照常更新網站與 GitHub 即可，不必再更新本地背景檔。直接貼獎學金說明，或說「繼續玉山」，agent 會讀取最新網站、相關作品與當案規則，產生需要的文件。
+
+網站沒有的必要資訊或正式證明，才由 agent 在對話中向你取得。已收到的附件與答案不重複索取，案件進度由 agent 接續處理。
+
+本地保留必要附件、申請草稿、PDF 與案件紀錄；由 agent 維護。既有 profile 與背景匯出是歷史補充，不要求你持續更新，也不取代網站的新資料。
 
 ## 結構與資料流
 
@@ -42,4 +47,4 @@ PDF 支援標題、一般段落與清單，繁體中文使用 ReportLab CJK 字�
 - 戶籍與身分附件：按當案官方要求取得；玉山要求最近三個月內戶籍謄本，不要過早申請而過期。
 - 推薦信：僅當案要求或允許時準備；先取得推薦人同意，agent 可協助擬邀請稿。
 
-Git 排除不是備份；請自行將私人資料備份至你信任的位置。共用版控只存你確認可公開的內容。沒有設定背景排程；追蹤由每次啟動 agent 更新。
+Git 排除不是備份；請自行將私人資料備份至你信任的位置。共用版控只存你確認可公開的內容。狀態在對話開始與結束時更新；沒有背景排程，離線時不會持續讀網站、信箱或主動提醒。若之後要求定時提醒，再使用 Codex 排程。
