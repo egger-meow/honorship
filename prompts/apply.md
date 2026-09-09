@@ -1,9 +1,8 @@
-請依本 repo 的 AGENTS.md 接續獎學金申請流程。每次先讀我的個人網站 https://me.jjmowlab.com 與 GitHub https://github.com/egger-meow，再讀與本案相關的履歷、經歷和作品頁，取得最新背景。我更新網站即可，不要要求我同步任何本地背景檔。
+這份 prompt 可選用；直接貼公告也會啟動完整流程。
 
-案件 ID：2026-esun
-公告／官網／附件：沿用案件資料，並核對最新官方要求。
-主要背景：上述兩個網站及其相關頁面。
-補充證據：已提供的正式附件；本地舊背景僅作歷史參考，不能取代本次讀網站。
+請依本 repo 的 AGENTS.md，從頭到尾處理我貼的獎學金申請。自行辨識案件名稱、年度並建立或接續案件，不要要求我填模板或維護檔案。
+
+每次讀我的個人網站 https://me.jjmowlab.com、GitHub https://github.com/egger-meow 及相關作品，再讀 private/export-background.md（或 private/background-export.md），結合 GPT 對我的理解與已提供的正式附件。背景匯出不存在時先繼續可做工作；未核實內容需標示。
 
 先判斷資格與缺件，建立或更新私人狀態檔；可繼續的部分直接執行。以真實證據選擇最強主軸，對照官方要求客製文稿，產出 Markdown、經檢查的 PDF 與附件清單。官定表格優先；沒有讀到正式申請欄位時，不要宣稱一般 PDF 可以直接交。
 
