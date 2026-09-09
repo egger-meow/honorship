@@ -1,0 +1,8 @@
+private/
+applications/*/private/
+applications/*/drafts/
+applications/*/output/
+applications/*/submission/
+tmp/
+__pycache__/
+.venv/
